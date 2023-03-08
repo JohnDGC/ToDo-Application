@@ -1,0 +1,246 @@
+<div class="body-container">
+  <header class="aside-header">
+    <!-- <div class="nav__up">
+      <ul>
+        <li class="nav__up-icons"><a href="">Logo</a></li>
+        <li class="nav__up-icons">
+          <a href=""><i class="fa-solid fa-inbox"></i></a>
+        </li>
+        <li class="nav__up-icons">
+          <a href=""><i class="fa-regular fa-star"></i></a>
+        </li>
+        <li class="nav__up-icons">
+          <a href=""><i class="fa-solid fa-calendar-week"></i></a>
+        </li>
+        <li class="nav__up-icons">
+          <a href=""><i class="fa-solid fa-check"></i></a>
+        </li>
+        <li class="nav__up-icons">
+          <a href=""><i class="fa-solid fa-trash"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav__down">
+      <ul>
+        <li class="nav__down-icons"><a href=""></a>profile</li>
+        <li class="nav__down-icons">
+          <a href=""><i class="fa-solid fa-ellipsis"></i></a>
+        </li>
+      </ul>
+    </div> -->
+  </header>
+  <main class="main-container">
+    <aside class="aside-left">
+      <div class="aside-left__projects">
+        <h3>
+          <span><i class="fa-regular fa-square"></i></span>PROJECTS
+        </h3>
+        <ul>
+          <li><a href="">EverDo</a></li>
+          <li><a href="">Gemsmark</a></li>
+          <li><a href="">Rubicon</a></li>
+        </ul>
+      </div>
+      <div class="aside-left__personal">
+        <h3>
+          <span><i class="fa-regular fa-square"></i></span>PERSONAL
+        </h3>
+        <ul>
+          <li><a href="">Shopping</a></li>
+          <li><a href="">Health</a></li>
+          <li><a href="">Entertainment</a></li>
+        </ul>
+      </div>
+      <div class="aside-left__learning">
+        <h3>
+          <span><i class="fa-regular fa-square"></i></span>LEARNING
+        </h3>
+        <ul>
+          <li><a href="">Electron</a></li>
+          <li><a href="">Flexbox</a></li>
+        </ul>
+      </div>
+      <section class="modal" id="modal">
+        <!-- <div class="modal__container">
+          <h2>Soy un modal</h2>
+          <a href="#" class="modal__close">X</a>
+        </div> -->
+      </section>
+      <a href="#modal" class="open"><span></span></a>
+    </aside>
+    <section class="todo-container">
+      <div class="todo-container__small-heading"><span>EverDo</span> - MVP</div>
+      <div class="todo-container__big-heading">
+        <h1>Design</h1>
+        <div class="todo-container__big-heading__time-filter">
+          <ul>
+            <li>All</li>
+            <li>1h</li>
+            <li>2h</li>
+            <li>Work</li>
+          </ul>
+        </div>
+      </div>
+      <div class="todo-container__sections">
+        <ul>
+          <li><span id="counter">0</span>Todos</li>
+          <li><span>3</span>Notes</li>
+          <li><span></span>Links</li>
+          <li><span></span>Files</li>
+        </ul>
+      </div>
+      <div class="vl"></div>
+      <ul class="todo-container__content" id="lista">
+        <!-- <li>
+          <i class="fa-regular fa-circle" data="realizado" id="0"></i>
+          <div>
+            <p class="text"><strong>Hacer la tarea</strong></p>
+            <p class="description">fjfj</p>
+          </div>
+          <i class="fa-solid fa-trash" data="eliminado" id="0"></i>
+        </li> -->
+
+        <!-- <li class="radio-checkbox">
+          <form>
+            <input
+              id="checkbox"
+              type="checkbox"
+              name="checkbox"
+              data-="realizado"
+            />
+          </form>
+          <div>
+            <section>
+              <p class="text"><strong>Hacer la tarea</strong></p>
+              <p class="date">mm</p>
+            </section>
+            <section>
+              <p class="description">fjfj</p>
+              <p class="priority">priority</p>
+            </section>
+          </div> -->
+
+        <!-- <span class="custom-radio-checkbox__text">Project Page</span> -->
+        <!-- </label> -->
+        <!-- <label class="radio-checkbox__label">
+            <input class="radio-checkbox__label__input" type="checkbox" />
+            <span
+              class="radio-checkbox__label-show radio-checkbox__label-show_check"
+            ></span>
+            <span class="custom-radio-checkbox__text">Today Page</span>
+          </label> -->
+        <!-- </li> -->
+      </ul>
+      <!-- <div class="todo-container__product">
+        <div class="todo-container__product --edit">
+          <h2>Product Planning</h2>
+          <a href=""><i class="fa-solid fa-ellipsis"></i></a>
+        </div>
+        <div class="vl"></div>
+        <section class="radio-checkbox radio-checkbox--planning">
+          <label class="radio-checkbox__label">
+            <input class="radio-checkbox__label__input" type="checkbox" />
+            <span
+              class="radio-checkbox__label-show radio-checkbox__label-show_check"
+            ></span>
+            <span class="custom-radio-checkbox__text"
+              >Decide how to organize Today page</span
+            >
+          </label>
+          <label class="radio-checkbox__label">
+            <input class="radio-checkbox__label__input" type="checkbox" />
+            <span
+              class="radio-checkbox__label-show radio-checkbox__label-show_check"
+            ></span>
+            <span class="custom-radio-checkbox__text"
+              >Create wireframes for the Today page</span
+            >
+          </label>
+          <label class="radio-checkbox__label">
+            <input class="radio-checkbox__label__input" type="checkbox" />
+            <span
+              class="radio-checkbox__label-show radio-checkbox__label-show_check"
+            ></span>
+            <span class="custom-radio-checkbox__text"
+              >Decide whether to gruop items by type</span
+            >
+          </label>
+        </section>
+      </div>
+      <div class="todo-container__design">
+        <div class="todo-container__design --edit">
+          <h2>Design</h2>
+          <a href=""><i class="fa-solid fa-ellipsis"></i></a>
+        </div>
+        <div class="vl"></div>
+        <section class="radio-checkbox radio-checkbox--design">
+          <label class="radio-checkbox__label">
+            <input class="radio-checkbox__label__input" type="checkbox" />
+            <span
+              class="radio-checkbox__label-show radio-checkbox__label-show_check"
+            ></span>
+            <span class="custom-radio-checkbox__text">Project page</span>
+          </label>
+          <label class="radio-checkbox__label">
+            <input class="radio-checkbox__label__input" type="checkbox" />
+            <span
+              class="radio-checkbox__label-show radio-checkbox__label-show_check"
+            ></span>
+            <span class="custom-radio-checkbox__text">Today page</span>
+          </label>
+          <label class="radio-checkbox__label">
+            <input class="radio-checkbox__label__input" type="checkbox" />
+            <span
+              class="radio-checkbox__label-show radio-checkbox__label-show_check"
+            ></span>
+            <span class="custom-radio-checkbox__text">End of day page</span>
+          </label>
+          <label class="radio-checkbox__label">
+            <input class="radio-checkbox__label__input" type="checkbox" />
+            <span
+              class="radio-checkbox__label-show radio-checkbox__label-show_check"
+            ></span>
+            <span class="custom-radio-checkbox__text"
+              >Notifications & Confirmations</span
+            >
+          </label>
+          <label class="radio-checkbox__label">
+            <input class="radio-checkbox__label__input" type="checkbox" />
+            <span
+              class="radio-checkbox__label-show radio-checkbox__label-show_check"
+            ></span>
+            <span class="custom-radio-checkbox__text">Modals</span>
+          </label>
+          <label class="radio-checkbox__label">
+            <span class=""><i class="fa-solid fa-plus"></i></span>
+            <span class="custom-radio-checkbox__text"> Add item</span>
+          </label>
+        </section>
+      </div> -->
+      <div class="footer">
+        <ul>
+          <button id="icon-check">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <button id="icon-cancel">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <button id="icon-calendar">
+            <i class="fa-regular fa-calendar"></i>
+          </button>
+          <button id="icon-tag"><i class="fa-solid fa-tag"></i></button>
+          <button id="icon-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button id="icon-archive">
+            <i class="fa-solid fa-file-arrow-down"></i>
+          </button>
+        </ul>
+        <ul>
+          <button id="icon-plus"><i class="fa-solid fa-plus"></i></button>
+        </ul>
+      </div>
+    </section>
+    <footer></footer>
+  </main>
+</div>

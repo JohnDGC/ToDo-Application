@@ -1,0 +1,91 @@
+@import "./abstracts/variables";
+@import "./base/reset";
+@import "./base/base";
+@import "./layout/header";
+@import "./layout/main";
+@import "./components/aside-left";
+@import "./components/todo-container";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  & ul {
+    display: flex;
+    // padding-top: 10px;
+
+    & button {
+      border: none;
+      border-radius: 25px;
+      padding: 9px;
+      margin: 20px 20px 0 0;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+#icon-check {
+  background-color: #d8f0c0fe;
+
+  & i {
+    color: #73a341;
+  }
+}
+
+#icon-cancel {
+  background-color: #f0d1d5;
+  padding: 0px 12px;
+
+  &:hover {
+    background-color: #e4b3b8;
+    cursor: pointer;
+  }
+
+  & i {
+    color: #bc4452;
+  }
+}
+
+#icon-calendar {
+  background-color: #e6caed;
+  padding: 0px 10px;
+
+  & i {
+    color: #9542a8;
+  }
+}
+
+#icon-tag {
+  background-color: #d2ede7;
+  padding: 0px 10px;
+
+  & i {
+    color: #49c6ab;
+  }
+}
+
+#icon-search {
+  background-color: #cbd4f0;
+  & i {
+    color: #37539d;
+  }
+}
+
+#icon-archive {
+  background-color: #ead2c7;
+  padding: 0px 11px;
+
+  & i {
+    color: #ee5d19;
+  }
+}
+
+#icon-plus {
+  background-color: #d2ede7;
+  margin: 20px 0 0 0;
+  padding: 0px 10px;
+
+  & i {
+    color: #2e927c;
+  }
+}

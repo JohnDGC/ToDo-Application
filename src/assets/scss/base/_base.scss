@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%;
+  width: 100%;
+  min-width: 375px;
+  font-family: $font-inter;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  color: $dark-blue;
+  // background-color: $light-grey;
+  padding: 0;
+}
+.body-container {
+  display: flex;
+  // margin: 5px;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 900;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1rem;
+}
+h5 {
+  font-size: 0.8rem;
+}
+ul {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition);
+  cursor: pointer;
+  position: relative;
+}

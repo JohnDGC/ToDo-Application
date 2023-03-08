@@ -1,0 +1,34 @@
+.aside-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $skyblue;
+  border-radius: 10px 0 0 10px;
+  font-size: 1.5rem;
+
+  .nav__up,
+  .nav__down {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .nav__up ul,
+  .nav__down ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav__up-icons,
+  .nav__down-icons {
+    margin-bottom: 30px;
+    color: $soft-grey;
+
+    .nav__down-icons:last-child {
+      margin: 0;
+    }
+  }
+}
